@@ -1,5 +1,5 @@
 
-const dataset_tree = require("graphy").util.dataset.tree;
+const dataset_tree = require("graphy").memory.dataset.fast;
 const factory = require("@graphy/core.data.factory");
 // const databaseUtilities = require("../../database utilities/dataManagementUtilities/dataManagementUtilities"); 
 const logger = require("../../../../config/winston");

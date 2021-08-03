@@ -1,6 +1,6 @@
 const read_graphy_nt = require("graphy").content.nt.read;
 const read_graphy_ttl = require("graphy").content.ttl.read;
-const dataset_tree = require("graphy").util.dataset.tree;
+const dataset_tree = require("graphy").memory.dataset.fast;
 const factory = require("@graphy/core.data.factory");
 const fs = require("fs");
 const { Readable } = require("stream");
